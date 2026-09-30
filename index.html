@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Fall 2026 course website for Introduction to Computational Biomedicine and Health (BINF GU4001 / COMS W4560) at Columbia University." />
+  <meta name="theme-color" content="#1b3a5c" />
+  <title>Introduction to Computational Biomedicine and Health · Fall 2026</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" id="top">
+    <div class="nav-wrap">
+      <a class="brand" href="#top" aria-label="Course home">Computational Biomedicine &amp; Health</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#staff">Staff</a>
+        <a href="#objectives">Objectives</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#assignments">Assignments</a>
+        <a href="#grading">Grading</a>
+        <a href="#policies">Policies</a>
+        <a href="assets/BINFGU4001_COMSW4560_Syllabus_Fall2026.pdf">Syllabus</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container-wide" aria-labelledby="course-title">
+      <p class="eyebrow">BINF GU4001 · COMS W4560 · Fall 2026</p>
+      <h1 id="course-title">Introduction to Computational Biomedicine and Health</h1>
+      <p class="hero-subtitle">Computational foundations for biomedical research, health data science, and biomedical AI.</p>
+      <p class="meeting-line">Mondays &amp; Wednesdays, 4:10–5:25 PM · Mudd 327 · Columbia University</p>
+      <div class="hero-actions">
+        <a class="button" href="#schedule">View course schedule</a>
+        <a class="button button-secondary" href="assets/BINFGU4001_COMSW4560_Syllabus_Fall2026.pdf">Download syllabus</a>
+      </div>
+    </section>
+
+    <div class="container-wide notice" role="note">
+      <strong>Course materials.</strong> Lecture slides, readings, and supplemental materials will be provided through CourseWorks.
+    </div>
+
+    <section id="about" class="section container-wide">
+      <h2 class="section-h">About</h2>
+      <div class="prose measure">
+        <p>This course offers a comprehensive introduction to the core computational methods driving modern biomedical research and health data science. As biological and clinical datasets grow in scale and complexity, from genomic sequences and molecular profiles to electronic health records (EHRs) and consumer health data, the course equips students with essential computational foundations to model, analyze, and interpret high-dimensional biomedical data.</p>
+        <p>Incorporating key algorithmic challenges spanning <strong>Bioinformatics</strong>, <strong>Clinical Informatics</strong>, <strong>Consumer Health Informatics</strong>, and <strong>Public Health Informatics</strong>, the course focuses on the design and application of algorithms and statistical models to solve real-world biomedical problems. Lectures emphasize practical techniques and showcase their use across diverse biomedical data types.</p>
+        <p>Designed for advanced undergraduates and graduate students in biomedical informatics, computer science, biomedical engineering, applied mathematics, and related fields, the course builds a rigorous understanding of computational biomedicine. It is cross-listed with Computer Science and serves as a core requirement for the Biomedical Informatics PhD and master’s programs as well as the Health and Medicine concentration of the Master of Science in Artificial Intelligence program. There are no formal prerequisites; prior experience with informatics is helpful but not required.</p>
+      </div>
+
+      <div class="highlight-grid" aria-label="Course domains">
+        <div class="highlight-item"><div><strong>Bioinformatics</strong><span>Genomic sequences, molecular phenotypes, systems biology, microbiome data, and computational genetics.</span></div></div>
+        <div class="highlight-item"><div><strong>Clinical Informatics</strong><span>Health data ecosystems, standards, decision support, phenotyping, and real-world evidence.</span></div></div>
+        <div class="highlight-item"><div><strong>Consumer Health Informatics</strong><span>Human-centered computing, personal health technologies, and patient-facing AI.</span></div></div>
+        <div class="highlight-item"><div><strong>Public Health Informatics</strong><span>Computational approaches for population health, surveillance, and evidence generation.</span></div></div>
+      </div>
+    </section>
+
+    <section id="staff" class="section container-wide">
+      <h2 class="section-h">Staff</h2>
+      <div class="staff-grid">
+        <article class="staff-card primary-card">
+          <p class="staff-role">Course Director</p>
+          <h3>Harry Reyes Nieva, PhD, MAS</h3>
+          <p>Columbia University</p>
+          <p><a href="mailto:harry.reyes@columbia.edu">harry.reyes@columbia.edu</a></p>
+          <p class="small">Office hours: by appointment</p>
+        </article>
+        <article class="staff-card">
+          <p class="staff-role">Teaching Assistant</p>
+          <h3>Rashid Al-Abri</h3>
+          <p><a href="mailto:ra3260@columbia.edu">ra3260@columbia.edu</a></p>
+        </article>
+        <article class="staff-card">
+          <p class="staff-role">Teaching Assistant</p>
+          <h3>Gregory Kondas</h3>
+          <p><a href="mailto:gbk2114@cumc.columbia.edu">gbk2114@cumc.columbia.edu</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="objectives" class="section container-wide">
+      <h2 class="section-h">Learning objectives</h2>
+      <p class="section-intro">By the end of the course, students will be able to:</p>
+      <div class="objective-grid">
+        <article class="objective-card">
+          <span class="objective-number">01</span>
+          <p>Understand the core computational methods that underpin biomedical research and health data science, including algorithm design, statistical modeling, and data integration techniques applied to biological and clinical data.</p>
+        </article>
+        <article class="objective-card">
+          <span class="objective-number">02</span>
+          <p>Identify and analyze key challenges in Bioinformatics, Clinical Informatics, Consumer Health Informatics, and Public Health Informatics and apply appropriate computational approaches to real-world problems.</p>
+        </article>
+        <article class="objective-card">
+          <span class="objective-number">03</span>
+          <p>Develop proficiency in understanding computational studies using high-dimensional data such as genomic sequences, molecular phenotypes, EHRs, and wearable sensor data, with an emphasis on informatics and AI.</p>
+        </article>
+        <article class="objective-card">
+          <span class="objective-number">04</span>
+          <p>Critically evaluate biomedical studies and data-driven health applications, including issues of bias, generalizability, reproducibility, and ethical considerations in biomedical data science.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="schedule" class="section container-wide">
+      <div class="section-heading-row">
+        <div>
+          <h2 class="section-h">Schedule</h2>
+          <p class="section-intro">Fall 2026 · Mondays and Wednesdays · 4:10–5:25 PM</p>
+        </div>
+      </div>
+
+      <div class="table-scroll">
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th scope="col">Lecture</th>
+              <th scope="col">Date</th>
+              <th scope="col">Topic</th>
+              <th scope="col">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td data-label="Lecture">1</td><td data-label="Date">Wed · Sep 9</td><td data-label="Topic"><strong>Introductory Lecture</strong></td><td data-label="Description">Course orientation and overview of computational biomedicine, major informatics domains, biomedical data types, and recurring methodological themes.</td></tr>
+            <tr><td data-label="Lecture">2</td><td data-label="Date">Mon · Sep 14</td><td data-label="Topic"><strong>Human-Centered AI</strong></td><td data-label="Description">Principles for designing and evaluating AI systems around human needs, workflows, values, and real-world use.</td></tr>
+            <tr><td data-label="Lecture">3</td><td data-label="Date">Wed · Sep 16</td><td data-label="Topic"><strong>Introduction to Machine Learning</strong></td><td data-label="Description">Core supervised and unsupervised learning concepts, model development, evaluation, and common biomedical applications.</td></tr>
+            <tr><td data-label="Lecture">4</td><td data-label="Date">Mon · Sep 21</td><td data-label="Topic"><strong>Health Data Ecosystems and Standards</strong></td><td data-label="Description">How health data are created, exchanged, standardized, and integrated across EHRs, research systems, and common data models.</td></tr>
+            <tr><td data-label="Lecture">5</td><td data-label="Date">Mon · Sep 28</td><td data-label="Topic"><strong>Clinical Decision Support</strong></td><td data-label="Description">Computational approaches for delivering patient-specific knowledge and recommendations within clinical workflows.</td></tr>
+            <tr><td data-label="Lecture">6</td><td data-label="Date">Wed · Sep 30</td><td data-label="Topic"><strong>Introduction to Bioinformatics &amp; Genetics</strong></td><td data-label="Description">Foundations of computational analysis for biological sequence and genetic data, from molecular representation to inference.</td></tr>
+            <tr><td data-label="Lecture">7</td><td data-label="Date">Mon · Oct 5</td><td data-label="Topic"><strong>Generating Real-World Evidence</strong><span class="row-note">Group assignments announced</span></td><td data-label="Description">Methods for using routinely collected health data to generate reproducible evidence about treatments, outcomes, and populations.</td></tr>
+            <tr><td data-label="Lecture">8</td><td data-label="Date">Wed · Oct 7</td><td data-label="Topic"><strong>History of AI in Medicine</strong></td><td data-label="Description">Major eras, ideas, successes, and limitations that have shaped the development of artificial intelligence in medicine.</td></tr>
+            <tr><td data-label="Lecture">9</td><td data-label="Date">Mon · Oct 12</td><td data-label="Topic"><strong>Representation Learning with Health Data</strong></td><td data-label="Description">Methods for learning useful representations from complex health data for downstream prediction, analysis, and discovery.</td></tr>
+            <tr><td data-label="Lecture">10</td><td data-label="Date">Wed · Oct 14</td><td data-label="Topic"><strong>Cognitive Informatics</strong></td><td data-label="Description">How human cognition, reasoning, decision-making, and information processing inform biomedical information-system design.</td></tr>
+            <tr><td data-label="Lecture">11</td><td data-label="Date">Mon · Oct 19</td><td data-label="Topic"><strong>Clinical Research Informatics</strong></td><td data-label="Description">Informatics methods and infrastructure that support clinical studies, data capture, research workflows, and evidence generation.</td></tr>
+            <tr><td data-label="Lecture">12</td><td data-label="Date">Wed · Oct 21</td><td data-label="Topic"><strong>Human-Computer Interaction</strong></td><td data-label="Description">Methods for understanding users and designing usable, effective, and safe interfaces for health and biomedical technologies.</td></tr>
+            <tr><td data-label="Lecture">13</td><td data-label="Date">Mon · Oct 26</td><td data-label="Topic"><strong>Phenotyping</strong></td><td data-label="Description">Computational methods for defining and identifying clinically meaningful patient characteristics and cohorts from health data.</td></tr>
+            <tr><td data-label="Lecture">14</td><td data-label="Date">Wed · Oct 28</td><td data-label="Topic"><strong>Systems Biology</strong></td><td data-label="Description">Computational modeling of interacting biological components and networks to understand complex biological systems and disease.</td></tr>
+            <tr class="break-row"><td data-label="Lecture">—</td><td data-label="Date">Mon · Nov 2</td><td data-label="Topic"><strong>Academic Holiday · No Class</strong><span class="row-note">Term paper proposal due 11:59 PM ET</span></td><td data-label="Description">Academic holiday; no class meeting.</td></tr>
+            <tr><td data-label="Lecture">15</td><td data-label="Date">Wed · Nov 4</td><td data-label="Topic"><strong>Biomedical Privacy</strong></td><td data-label="Description">Privacy risks, governance principles, and technical approaches for protecting sensitive biomedical and health data.</td></tr>
+            <tr><td data-label="Lecture">16</td><td data-label="Date">Mon · Nov 9</td><td data-label="Topic"><strong>Term Paper Q&amp;A and Group Project Meetings</strong></td><td data-label="Description">Workshop for refining term paper plans and meeting with project teams about scope, methods, and deliverables.</td></tr>
+            <tr><td data-label="Lecture">17</td><td data-label="Date">Wed · Nov 11</td><td data-label="Topic"><strong>Public Health Informatics</strong></td><td data-label="Description">Use of information systems, interoperable data, and computational methods for surveillance, population health, and public health action.</td></tr>
+            <tr><td data-label="Lecture">18</td><td data-label="Date">Mon · Nov 16</td><td data-label="Topic"><strong>Introduction to Microbiome Data Analysis</strong></td><td data-label="Description">Computational approaches for characterizing microbial communities and relating microbiome composition and function to health.</td></tr>
+            <tr><td data-label="Lecture">19</td><td data-label="Date">Wed · Nov 18</td><td data-label="Topic"><strong>Computational Genetics</strong></td><td data-label="Description">Computational methods for analyzing genetic variation and connecting genotype to phenotype and disease.</td></tr>
+            <tr><td data-label="Lecture">20</td><td data-label="Date">Mon · Nov 23</td><td data-label="Topic"><strong>Biological Foundation Models</strong></td><td data-label="Description">Large pretrained models for biological data and their use in representation, prediction, generation, and scientific discovery.</td></tr>
+            <tr class="break-row"><td data-label="Lecture">—</td><td data-label="Date">Wed · Nov 25</td><td data-label="Topic"><strong>Academic Holiday · No Class</strong></td><td data-label="Description">Academic holiday; no class meeting.</td></tr>
+            <tr><td data-label="Lecture">21</td><td data-label="Date">Mon · Nov 30</td><td data-label="Topic"><strong>Consumer Health Informatics</strong></td><td data-label="Description">Design and evaluation of digital tools that help individuals access, understand, and use health information.</td></tr>
+            <tr><td data-label="Lecture">22</td><td data-label="Date">Wed · Dec 2</td><td data-label="Topic"><strong>Personal Health Agents</strong></td><td data-label="Description">AI agents that support individual health tasks through personalized reasoning, interaction, and use of health data.</td></tr>
+            <tr><td data-label="Lecture">23</td><td data-label="Date">Mon · Dec 7</td><td data-label="Topic"><strong>AI Implementation and Applications</strong><span class="row-note">Group presentation slides due 4:00 PM</span></td><td data-label="Description">Practical considerations for translating AI into biomedical and clinical settings, including evaluation, workflow integration, and deployment.</td></tr>
+            <tr class="presentation-row"><td data-label="Lecture">24</td><td data-label="Date">Wed · Dec 9</td><td data-label="Topic"><strong>Student Presentations</strong></td><td data-label="Description">Student teams present and discuss their proposed computational solutions to biomedical problems.</td></tr>
+            <tr class="presentation-row"><td data-label="Lecture">25</td><td data-label="Date">Mon · Dec 14</td><td data-label="Topic"><strong>Student Presentations</strong></td><td data-label="Description">Student teams present and discuss their proposed computational solutions to biomedical problems.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="small schedule-note">Lecture descriptions provide a brief overview of the planned topic; specific content may vary by instructor.</p>
+    </section>
+
+    <section id="assignments" class="section container-wide">
+      <h2 class="section-h">Assignments</h2>
+      <div class="assignment-grid">
+        <article class="assignment-card">
+          <div class="assignment-weight">20%</div>
+          <h3>Lecture Reflection Summaries</h3>
+          <p>After each lecture, submit a concise reflection summary that captures key concepts, connects the lecture to other domains or methods, and identifies questions or areas worth exploring.</p>
+          <dl>
+            <div><dt>Length</dt><dd>500 words maximum</dd></div>
+            <div><dt>Due</dt><dd>Beginning of the next class meeting</dd></div>
+            <div><dt>Flexibility</dt><dd>Up to 3 submissions may be missed without penalty</dd></div>
+          </dl>
+        </article>
+
+        <article class="assignment-card feature-card">
+          <div class="assignment-weight">30%</div>
+          <h3>Group Project</h3>
+          <p>Teams of 3–4 design and present a computational solution to a biomedical problem, explicitly integrating at least two course domains.</p>
+          <dl>
+            <div><dt>Groups announced</dt><dd>October 5</dd></div>
+            <div><dt>Slides due</dt><dd>December 7 · 4:00 PM</dd></div>
+            <div><dt>Presentations</dt><dd>December 9 &amp; 14</dd></div>
+          </dl>
+        </article>
+
+        <article class="assignment-card">
+          <div class="assignment-weight">40%</div>
+          <h3>Term Paper</h3>
+          <p>A research paper exploring a biomedical informatics topic, either as a review of an issue or technology or as a well-researched position paper.</p>
+          <dl>
+            <div><dt>Proposal</dt><dd>November 2 · 11:59 PM ET</dd></div>
+            <div><dt>Final paper</dt><dd>December 17 · 11:59 PM ET</dd></div>
+            <div><dt>Maximum length</dt><dd>2,500 words, excluding figures and references</dd></div>
+          </dl>
+        </article>
+      </div>
+      <p class="section-cta"><a href="assignments.html">View complete assignment instructions and rubrics →</a></p>
+    </section>
+
+    <section id="grading" class="section container-wide">
+      <h2 class="section-h">Grading</h2>
+      <div class="grading-layout">
+        <div>
+          <table class="grading-table">
+            <thead><tr><th scope="col">Component</th><th scope="col">Weight</th></tr></thead>
+            <tbody>
+              <tr><td>Class Participation</td><td>10%</td></tr>
+              <tr><td>Lecture Summaries</td><td>20%</td></tr>
+              <tr><td>Group Project</td><td>30%</td></tr>
+              <tr><td>Term Paper</td><td>40%</td></tr>
+              <tr class="total-row"><td><strong>Total</strong></td><td><strong>100%</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <h3 class="mini-heading">Final grade scale</h3>
+          <div class="grade-scale" aria-label="Final grade scale">
+            <span><strong>A</strong> 94–100</span><span><strong>A−</strong> 90–93</span><span><strong>B+</strong> 87–89</span>
+            <span><strong>B</strong> 83–86</span><span><strong>B−</strong> 80–82</span><span><strong>C+</strong> 77–79</span>
+            <span><strong>C</strong> 73–76</span><span><strong>C−</strong> 70–72</span><span><strong>D</strong> 60–69</span>
+            <span><strong>F</strong> &lt;60</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="policies" class="section container-wide">
+      <h2 class="section-h">Policies</h2>
+      <div class="policy-grid">
+        <article class="policy-card">
+          <h3>Communication</h3>
+          <p>Announcements will be posted on CourseWorks. Students should regularly check for updates and use the platform for submitting assignments and asking questions.</p>
+        </article>
+        <article class="policy-card">
+          <h3>Attendance &amp; participation</h3>
+          <p>This is an in-person course. Students may miss up to three regular class meetings without concern. Participation is based on substantive engagement rather than attendance alone.</p>
+        </article>
+        <article class="policy-card">
+          <h3>Academic integrity &amp; AI</h3>
+          <p>Students must comply with Columbia’s academic integrity standards. Unless explicitly authorized for a particular assignment, generative AI may not be used to generate, rewrite, summarize, or substantially edit material submitted for credit.</p>
+        </article>
+        <article class="policy-card">
+          <h3>Academic accommodations</h3>
+          <p>Students requiring disability-related academic accommodations should register with Columbia Disability Services and ensure the instructional team receives the appropriate notification.</p>
+        </article>
+        <article class="policy-card">
+          <h3>Religious observance</h3>
+          <p>Students will not be penalized for absences due to religious observance and will be provided an equivalent opportunity to satisfy missed academic requirements.</p>
+        </article>
+        <article class="policy-card">
+          <h3>Required materials</h3>
+          <p>There is no required textbook. Required lecture slides, readings, and supplemental materials will be provided through CourseWorks.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container-wide footer-inner">
+      <div>
+        <strong>BINF GU4001 · COMS W4560</strong><br />
+        Introduction to Computational Biomedicine and Health · Columbia University · Fall 2026
+      </div>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
