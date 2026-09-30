@@ -2,8 +2,8 @@
 **Columbia University - Fall 2026**
 
 **Course Instructor**
-Harry Reyes Nieva, PhD, MAS
-Department of Medicine
+Harry Reyes Nieva, PhD, MAS   
+Department of Medicine   
 Columbia University Irving Medical Center
 
 **Course Description**
