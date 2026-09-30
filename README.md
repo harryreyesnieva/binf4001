@@ -1,12 +1,12 @@
 # Introduction to Computational Biomedicine and Health (BINF GU4001 / COMS W4560)
 **Columbia University - Fall 2026**
 
-**Course Instructor**
+**Course Instructor**   
 Harry Reyes Nieva, PhD, MAS   
 Department of Medicine   
 Columbia University Irving Medical Center
 
-**Course Description**
+**Course Description**   
 This course offers a comprehensive introduction to the core computational methods driving modern biomedical research and health data science. As biological and clinical datasets grow in scale and complexity from genomic sequences and molecular profiles to electronic health records (EHRs) and consumer health data this course equips students with the essential computational foundations to model, analyze, and interpret highdimensional biomedical data.
 
 Incorporating key algorithmic challenges spanning Bioinformatics, Clinical Informatics, Consumer Health Informatics, and Public Health Informatics, the course focuses on the design and application of algorithms and statistical models to solve real-world biomedical problems. Lectures emphasize practical techniques and showcase their use across diverse biomedical data types.
